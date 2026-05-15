@@ -3,7 +3,7 @@
 using namespace std;
 
 int basicLinearSearch(vector<string> v, string key) {
-    for (int i = 0; i < v.size() - 1; i++) {
+    for (int i = 0; i < v.size(); i++) {
         if (v[i] == key) {
             cout << "Key found! at index (" << i << ")" << endl;
             return i;
